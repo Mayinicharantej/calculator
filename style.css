@@ -1,0 +1,50 @@
+body{
+        margin: 0%;
+        padding: 0%;
+}
+.container{
+        
+        height: 100vh;
+        width: 100vw;
+        background-color: rgb(87, 85, 85);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        
+}
+
+
+.main{
+        padding: 20px;
+        background-color: rgb(65, 64, 64);
+        border-radius: 10px;
+}
+.main form input{
+        border: 0;
+        outline: 0;
+        width: 60px;
+        height: 60px;
+        border-radius:10px   ;
+        box-shadow: 2px 2px 15px rgba(0,0,0,0.2);
+        background: rgba(0, 0, 0, 0.582);
+        font-size: 20px;
+        color: white;
+        cursor: pointer;
+        margin: 2px;
+}
+form .display{
+        display: flex;
+        justify-content: flex-end;
+        margin: 20px,0;
+
+}
+form .display input{
+        text-align: right;
+        flex: 1;
+        font-size: 45px;
+        box-shadow: none;
+}
+form input.operator{
+        color: rgb(214, 91, 9);
+}
